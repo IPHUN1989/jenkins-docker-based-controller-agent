@@ -6,7 +6,7 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/IPHUN1989/jenkins-docker-based-controller-agent)
 ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/IPHUN1989/jenkins-docker-based-controller-agent?label=total%20commits)
 ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/m/IPHUN1989/jenkins-docker-based-controller-agent?label=monthly%20commits)
-![GitHub last commit (branch)](https://img.shields.io/github/last-commit/IPHUN1989/jenkins-docker-based-controller-agent/development)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/IPHUN1989/jenkins-docker-based-controller-agent/main)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/IPHUN1989/jenkins-docker-based-controller-agent)
 ![GitHub issues](https://img.shields.io/github/issues-raw/IPHUN1989/jenkins-docker-based-controller-agent)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/IPHUN1989/jenkins-docker-based-controller-agent)
