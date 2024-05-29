@@ -18,6 +18,13 @@
 - <img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Jenkins_logo.svg" alt="drawing" width="30" height="30" align="center"/> *Jenkins* 
 - <img src="https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/042e36c55d4d757621dedc4f03108213fbb57ec4/cloud/docker.svg" alt="drawing" width="30" height="40" align="center"/> *Docker* 
 
+# Prerequisites
+
+**Download and install docker from here:**
+- *<a href="https://docs.docker.com/desktop/install/linux-install/"> Linux </a>*
+- *<a href="https://docs.docker.com/desktop/install/windows-install/"> Windows </a>*
+- *<a href="https://docs.docker.com/desktop/install/mac-install/"> Mac </a>*
+
 
 # System diagram
 
