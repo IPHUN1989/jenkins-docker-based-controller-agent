@@ -40,6 +40,9 @@
 
 # Step by step instructions:
 
+0. *If you use Windows then please modify the compose.yml file to the following:*
+    - *services -> jenkins_agent -> volumes -> from "/var/run/docker.sock:/var/run/docker.sock" to       /"//var/run/docker.sock:/var/run/docker.sock" (note the double slash)*
+    - *If you use Linux or Mac, then you can proceed without extra modifications* 
 1. *Generate an SSH key*
 2. *Add the public key to the template_env* 
 3. *Rename the template_env file in the ${local_folder_of_cloned_project} to .env*
