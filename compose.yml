@@ -2,7 +2,7 @@
 
 services:
   jenkins_controller:
-    image: jenkins/jenkins:jdk21
+    build: ./controller
     container_name: jenkins-controller
     restart: unless-stopped
     ports:
@@ -38,6 +38,7 @@ services:
    
 volumes:
   jenkins-controller:
+    name: jenkins-controller
 
 networks:
   jenkins:
