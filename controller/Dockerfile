@@ -15,6 +15,9 @@ RUN apt-get update && \
 # Set the Jenkins reference directory
 ENV JENKINS_REF /usr/share/jenkins/ref
 
+# Set the Jenkins home directory
+ENV JENKINS_HOME /var/jenkins_home/
+
 # Skip the initial password setup
 ENV JAVA_OPTS -Djenkins.install.runSetupWizard=false
 
@@ -23,6 +26,12 @@ COPY ./plugins.txt $JENKINS_REF/
 
 # Install plugins using the jenkins-plugin-cli
 RUN jenkins-plugin-cli --plugin-file "$JENKINS_REF"/plugins.txt --latest true
+
+# Copy the contents of the settings folder to the Jenkins home directory
+COPY ./settings/. /$JENKINS_HOME/
+
+# Chnage permissions to the $JENKINS_HOME folder recursively
+RUN chown -R jenkins:jenkins /$JENKINS_HOME/
 
 # Create the docker group and add Jenkins user to it
 RUN groupadd docker && usermod -a -G docker jenkins
