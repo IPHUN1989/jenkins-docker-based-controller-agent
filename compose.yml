@@ -38,6 +38,7 @@ services:
    
 volumes:
   jenkins-controller:
+    name: jenkins-controller
 
 networks:
   jenkins:
